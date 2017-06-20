@@ -1,3 +1,5 @@
 task upper << {
-String egStr = 'hello'
+    String egStr = 'hello'
+    println "Original: " + egStr
+    println "Upper Case: " + egStr.toUpperCase()
 }
